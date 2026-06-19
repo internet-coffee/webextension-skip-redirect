@@ -1,0 +1,126 @@
+{
+    "browserActionLabelDefault": {
+        "description": "Label of the button before the extension has loaded completely.",
+        "message": "Skip Redirect"
+    },
+    "browserActionLabelOff": {
+        "description": "Label of the button when the extension is disabled.",
+        "message": "Skip Redirect 已停用，點擊以啟用"
+    },
+    "browserActionLabelOn": {
+        "description": "Label of the button when the extension is enabled.",
+        "message": "Skip Redirect 已啟用，點擊以停用"
+    },
+    "browserActionLabelOnSkipped": {
+        "description": "Label of the button when the extension is enabled and there was a redirect.",
+        "message": "Skip Redirect 已啟用，點擊以停用\n\n最近一次重新導向：\n\n$sourceUrl$\n➔\n$targetUrl$",
+        "placeholders": {
+            "sourceUrl": {
+                "content": "$1",
+                "example": "https://example.com/out?url=https%3A%2F%2Fmozilla.org"
+            },
+            "targetUrl": {
+                "content": "$2",
+                "example": "https://mozilla.org"
+            }
+        }
+    },
+    "contextMenuLinkLabel": {
+        "description": "Label of the context menu entry to copy the target URL of the link under the cursor.",
+        "message": "複製目標網址"
+    },
+    "contextMenuToolbarLabel": {
+        "description": "Label of the context menu entry to copy last URL.",
+        "message": "複製上一個跳過的網址"
+    },
+    "extensionDescription": {
+        "description": "Description of the extension in the add-on manager.",
+        "message": "在重新導向到最終頁面之前，自動跳過某些網站使用的中間過渡頁面。"
+    },
+    "extensionName": {
+        "description": "Name of the extension in the add-on manager.",
+        "message": "Skip Redirect"
+    },
+    "optionsModeNoSkipUrlsList": {
+        "description": "The choice that sets the extension into no-skip-urls-list mode.",
+        "message": "跳過所有重新導向，但與黑名單中的任何字串相符的網址除外。"
+    },
+    "optionsModeOff": {
+        "description": "The choice that disables the extension.",
+        "message": "停用"
+    },
+    "optionsModeSkipUrlsList": {
+        "description": "The choice that sets the extension into skip-urls-list mode.",
+        "message": "僅跳過與白名單中的任何字串相符的網址重新導向。"
+    },
+    "optionsNoSkipParametersListContent": {
+        "description": "Label of the text area to edit the no-skip-parameters-list.",
+        "message": "參數黑名單（支援正規表達式）"
+    },
+    "optionsNoSkipUrlsListContent": {
+        "description": "Label of the text area to edit the no-skip-urls-list.",
+        "message": "網址黑名單（支援正規表達式）"
+    },
+    "optionsNotificationsDuration": {
+        "description": "Label of the input field to specify how long notifications are shown.",
+        "message": "通知顯示時間（1 到 10 秒）："
+    },
+    "optionsNotificationsEnable": {
+        "description": "Label of the checkbox to toggle notifications.",
+        "message": "啟用彈出通知"
+    },
+    "optionsSectionMode": {
+        "description": "Title of the options section allowing to toggle between no-skip-urls-list and skip-urls-list or disable the extension.",
+        "message": "模式"
+    },
+    "optionsSectionNotifications": {
+        "description": "Title of the options section allowing to control notifications.",
+        "message": "通知"
+    },
+    "optionsSectionSync": {
+        "description": "Title of the options section allowing to control Sync.",
+        "message": "同步"
+    },
+    "optionsSkipRedirectsToSameDomain": {
+        "description": "Label of the checkbox that toggles skipping to the same public domain.",
+        "message": "跳過重新導向至相同公用網域的網址"
+    },
+    "optionsSkipUrlsListContent": {
+        "description": "Label of the text area to edit the skip-urls-list.",
+        "message": "白名單（每行必須符合此 <a href=\"https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns\">比對模式</a>）"
+    },
+    "optionsSyncExplanation": {
+        "description": "Details about how Sync works.",
+        "message": "同步功能使用的是您瀏覽器的帳戶。在此處啟用同步之前，您必須先在瀏覽器設定中啟用擴充功能／附加元件的同步。瀏覽器會控制資料的同步時機，如果多部裝置在短時間內同時發生變更，部分修改可能會遺失。"
+    },
+    "optionsSyncListsEnable": {
+        "description": "Label of the checkbox to toggle Sync.",
+        "message": "同步清單"
+    },
+    "optionsTitle": {
+        "description": "Title of the options view.",
+        "message": "設定"
+    },
+    "redirectSkippedBrowserActionBadge": {
+        "description": "Text of the badge shown on the button after a redirect was skipped.",
+        "message": "Skip"
+    },
+    "redirectSkippedNotificationMessage": {
+        "description": "Content of the notification about skipped redirect.",
+        "message": "$sourceUrl$\n➔\n$targetUrl$",
+        "placeholders": {
+            "sourceUrl": {
+                "content": "$1",
+                "example": "https://example.com/out?url=https%3A%2F%2Fmozilla.org"
+            },
+            "targetUrl": {
+                "content": "$2",
+                "example": "https://mozilla.org"
+            }
+        }
+    },
+    "redirectSkippedNotificationTitle": {
+        "description": "Title of the notification about skipped redirect.",
+        "message": "已跳過重新導向"
+    }
+}
